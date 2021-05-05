@@ -1,16 +1,21 @@
 import {readFileSync} from 'fs'
-import {join} from 'path';
-import {mkdir, readFile, writeFile, readdir} from 'fs-extra';
+import {mkdir, readFile, writeFile, readdir} from 'fs/promises';
+import {join, dirname} from 'path';
+import { fileURLToPath } from 'url';
+
 import {DOMParser} from 'xmldom';
+import {csvParse} from 'd3-dsv';
 
 import getPlansDeCompte from './shared/getPlansDeCompte.js'
 
-import xmlDocumentToDocumentBudgetaire from '../src/shared/js/finance/xmlDocumentToDocumentBudgetaire';
+import xmlDocumentToDocumentBudgetaire from '../src/shared/js/finance/xmlDocumentToDocumentBudgetaire.js';
 import makeAggregateFunction from '../src/shared/js/finance/makeAggregateFunction.js'
-import csvStringToCorrections from '../src/shared/js/finance/csvStringToCorrections';
+import csvStringToCorrections from '../src/shared/js/finance/csvStringToCorrections.js';
 import {fromXMLDocument} from '../src/shared/js/finance/planDeCompte.js'
 
-import aggregationDescription from '../data/finances/description-agrégation.json'
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+const aggregationDescription = JSON.parse(readFileSync(new URL('../data/finances/description-agrégation.json', import.meta.url)));
 
 const corrections = csvStringToCorrections(readFileSync(join(__dirname, '../data/finances/corrections-agregation.csv'), {encoding: 'utf-8'}))
 
@@ -20,6 +25,25 @@ const SOURCE_FINANCE_DIR = './data/finances';
 const plansDeComptesP = getPlansDeCompte(join(SOURCE_FINANCE_DIR, 'plansDeCompte'))
 .then(pdcs => pdcs.map(fromXMLDocument))
 
+
+
+Promise.all(['DF.csv', 'DI.csv'].map(f => {
+    return readFile(join(SOURCE_FINANCE_DIR, 'csv', f), {encoding: 'utf-8'})
+    .then(csvParse)
+    .then(data => {
+        console.log('data', f, data)
+
+
+    })
+}))
+
+
+/*
+throw `TODO : 
+- load all the csvs
+- make all the <lignebudget>
+    - make a special one with leftover from DI/DF/RI/RF
+`
 
 mkdir(BUILD_FINANCE_DIR)
 .catch(err => {
@@ -65,3 +89,4 @@ mkdir(BUILD_FINANCE_DIR)
 .catch(err => {
     console.error('err', err);
 })
+*/

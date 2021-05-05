@@ -1,4 +1,6 @@
-import { Record } from 'immutable';
+import immutable from 'immutable';
+const { Record } = immutable;
+
 
 /*
     Keys are the one used by the Actes Budgétaire project XML files (<LigneBudget> specifically) as described in

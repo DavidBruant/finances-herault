@@ -1,5 +1,5 @@
 import {join} from 'path';
-import {readFile, readdir}  from 'fs-extra';
+import {readFile, readdir}  from 'fs/promises';
 import xmlBufferToString from 'xml-buffer-tostring';
 import {DOMParser} from 'xmldom';
 
