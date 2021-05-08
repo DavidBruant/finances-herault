@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocumentBudgetaire xsi:schemaLocation="http://www.minefi.gouv.fr/cp/demat/docbudgetaire Actes_budgetaires___Schema_Annexes_Bull_V15DocumentBudgetaire.xsd" xmlns="http://www.minefi.gouv.fr/cp/demat/docbudgetaire" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <VersionSchema V="81"/>
+    <EnTeteDocBudgetaire _ks_data_selector_id_="1620482739274_1">
+        <DteStr V=""/>
+        <LibelleColl V="CD34"/>
+        <IdColl V="CD34"/>
+    </EnTeteDocBudgetaire>
+    <Budget _ks_data_selector_id_="1620482739275_3">
+        <EnTeteBudget _ks_data_selector_id_="1620482739276_4">
+            <Nomenclature V="M52-M52"/>
+        </EnTeteBudget>
+        <BlocBudget _ks_data_selector_id_="1620482739275_2">
+            <NatDec V="09"/>
+            <Exer V="2019"/>
+            <NatFonc V="3"/>
+        </BlocBudget>
+        <InformationsGenerales/>
+    <LigneBudget><Nature V="65171"/><Fonction V="567"/><MtReal V="206403239.47"/><CodRD V="D"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="65242"/><Fonction V="52"/><MtReal V="58613213.45"/><CodRD V="D"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="652412"/><Fonction V="51"/><MtReal V="50413272.53"/><CodRD V="D"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="231312"/><Fonction V="221"/><MtReal V="23048497.54"/><CodRD V="D"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="1641"/><Fonction V="01"/><MtReal V="30260814.12"/><CodRD V="D"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="16449"/><Fonction V="01"/><MtReal V="19500000"/><CodRD V="D"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="7321"/><Fonction V="01"/><MtReal V="271575288.23"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="73111"/><Fonction V="01"/><MtReal V="315636241"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="7342"/><Fonction V="01"/><MtReal V="121706632.17"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="1068"/><Fonction V="01"/><MtReal V="50277706.52"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="1641"/><Fonction V="01"/><MtReal V="10000000"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="16449"/><Fonction V="01"/><MtReal V="19500000"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget><LigneBudget><Nature V="10222"/><Fonction V="01"/><MtReal V="19298291.9"/><CodRD V="R"/><OpBudg V="0"/></LigneBudget></Budget>
+</DocumentBudgetaire>
