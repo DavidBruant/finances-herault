@@ -1,5 +1,5 @@
 import {join} from 'path';
-import {writeFile}  from 'fs-extra';
+import {writeFile}  from 'fs/promises';
 
 import getPlansDeCompte from './shared/getPlansDeCompte.js'
 
