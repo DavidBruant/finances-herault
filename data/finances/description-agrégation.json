@@ -103,7 +103,7 @@
             {
               "id": "DF.2",
               "name": "• Dépenses de Solidarités par publics ",
-              "useInAnalysis": true,
+              "useInAnalysis": false,
               "children": [
                 {
                   "id": "DF.2.1",
@@ -303,6 +303,12 @@
               "name": "INTERETS DES EMPRUNTS",
               "useInAnalysis": true,
               "formula": "Ch66"
+            },
+            {
+              "id": "DF.A",
+              "name": "Autres DF",
+              "useInAnalysis": true,
+              "formula": "DF∩F01∩C0000"
             }
           ]
         },
@@ -415,6 +421,12 @@
                   "formula": "DI∩(C204152∩F93)-(DI∩(C204152∩F93)∩Ann2019)"
                 }
               ]
+            },
+            {
+              "id": "DI.A",
+              "name": "Autres DI",
+              "useInAnalysis": true,
+              "formula": "DI∩F01∩C9999"
             }
           ]
         }
@@ -695,6 +707,12 @@
                   "formula": "RF∩(C73111+C7318)"
                 }
               ]
+            },
+            {
+              "id": "RF.A",
+              "name": "Autres RF",
+              "useInAnalysis": true,
+              "formula": "RF∩F01∩C0000"
             }
           ]
         },
@@ -769,6 +787,12 @@
               "name": "Avance remboursable DMTO",
               "useInAnalysis": true,
               "formula": "(C16871∩F01∩Ann2020)"
+            },
+            {
+              "id": "RI.A",
+              "name": "Autres RI",
+              "useInAnalysis": true,
+              "formula": "RI∩F01∩C9999"
             }
           ]
         }

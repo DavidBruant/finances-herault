@@ -28,12 +28,19 @@ export function fromXMLDocument(pc){
         return comptesArray.find(compteElement => compteElement.getAttribute('Code') === Nature)
     })
 
+    const Norme = Nomenclature.getAttribute('Norme');
+    const Declinaison = Nomenclature.getAttribute('Declinaison');
+    const Exer = Number(Nomenclature.getAttribute('Exer'));
+
     return {
-        Norme: Nomenclature.getAttribute('Norme'),
-        Declinaison: Nomenclature.getAttribute('Declinaison'),
-        Exer: Number(Nomenclature.getAttribute('Exer')),
+        Norme, Declinaison, Exer,
 
         ligneBudgetFI({CodRD, Nature}){
+            if(Nature === '0000')
+                return 'F' 
+            if(Nature === '9999')
+                return 'I'
+
             const chapitreCodeByNature = CodRD === 'R' ? chapitreCodeByNatureR : chapitreCodeByNatureD;
             const chapitreCode = chapitreCodeByNature.get(Nature);
 
@@ -50,10 +57,17 @@ export function fromXMLDocument(pc){
             return chapitreCode === chapitre
         },
         ligneBudgetIsInCompte({Nature}, compte){
+
+            if((compte === '0000' || compte === '9999') && compte === Nature){
+                return true
+            }
+
             const compteElement = getCompteElement(Nature)
             
-            if(!compteElement) // compte does not exist for this nature
+            if(!compteElement){ // compte does not exist for this nature
+                console.warn('La nature', Nature, compte, `n'existe pas pour`, Norme, Declinaison, Exer)
                 return false;
+            }
 
             // look up to see if the compte is a parent of the LigneBudget's Nature
             let testedCompteElement = compteElement;
