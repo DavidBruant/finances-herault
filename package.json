@@ -81,7 +81,7 @@
     "markdown-it": "^8.4.1",
     "markdown-it-link-attributes": "^2.1.0",
     "nearley": "^2.16.0",
-    "page": "^1.8.6",
+    "page": "^1.11.6",
     "query-selector": "^2.0.0",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",

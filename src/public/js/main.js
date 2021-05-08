@@ -15,7 +15,7 @@ import {makeChildToParent, flattenTree} from '../../shared/js/finance/visitHiera
 import hierarchicalM52 from '../../shared/js/finance/hierarchicalM52.js';
 
 import Breadcrumb from '../../shared/js/components/gironde.fr/Breadcrumb';
-import Home from './components/screens/Home';
+//import Home from './components/screens/Home';
 import FinanceElement from './components/screens/FinanceElement';
 import FocusSolidarity from './components/screens/FocusSolidarity';
 import FocusInvestments from './components/screens/FocusInvestments';
@@ -69,20 +69,7 @@ const BREADCRUMB_CONTAINER = process.env.NODE_ENV === "production" ?
     document.body.querySelector('.breadcrumb').parentNode :
     document.body.querySelector('nav');
 
-const DEFAULT_BREADCRUMB = List([
-    {
-        text: 'Accueil',
-        url: '/'
-    },
-    {
-        text: 'Le Département',
-        url: '/le-departement'
-    },
-    {
-        text: `Un budget au service des solidarités humaine et territoriale`,
-        url: '#'
-    }
-]);
+const DEFAULT_BREADCRUMB = List([]);
 
 
 const StoreRecord = Record({
@@ -188,24 +175,7 @@ csv(urls[AGGREGATED_TEMPORAL])
  */
 
 page('/', () => {
-    console.log('in route', '/')
-
-    ReactDOM.render(
-        React.createElement(
-            Provider,
-            { store },
-            React.createElement(Home)
-        ),
-        CONTAINER_ELEMENT
-    );
-
-    const breadcrumb = DEFAULT_BREADCRUMB;
-    ReactDOM.render( React.createElement(Breadcrumb, { items: breadcrumb }), BREADCRUMB_CONTAINER );
-});
-
-
-page('/explorer', () => {
-    console.log('in route', '/explorer');
+    console.log('in route', '/');
 
     ReactDOM.render(
         React.createElement(
@@ -275,7 +245,7 @@ page('/finance-details/:contentId', ({params: {contentId}}) => {
 
     breadcrumbData.push({
         text: 'Explorer',
-        url: `#!/explorer`
+        url: `#!/`
     })
 
     const breadcrumb = DEFAULT_BREADCRUMB.concat(breadcrumbData.reverse());
@@ -284,59 +254,7 @@ page('/finance-details/:contentId', ({params: {contentId}}) => {
 
 });
 
-page(`/focus/${SOLIDARITES}`, () => {
-    console.log('in route', `/focus/${SOLIDARITES}`);
-    scrollTo(0, 0);
-
-    ReactDOM.render(
-        React.createElement(
-            Provider,
-            { store },
-            React.createElement(FocusSolidarity)
-        ),
-        CONTAINER_ELEMENT
-    );
-});
-
-page(`/focus/${INVEST}`, () => {
-    console.log('in route', `/focus/${INVEST}`);
-    scrollTo(0, 0);
-
-    ReactDOM.render(
-        React.createElement(
-            Provider,
-            { store },
-            React.createElement(FocusInvestments)
-        ),
-        CONTAINER_ELEMENT
-    );
-});
-
-page(`/focus/${PRESENCE}`, () => {
-    console.log('in route', `/focus/${PRESENCE}`);
-    scrollTo(0, 0);
-
-    ReactDOM.render(
-        React.createElement(
-            Provider,
-            { store },
-            React.createElement(FocusPresence)
-        ),
-        CONTAINER_ELEMENT
-    );
-});
-
-page.redirect(location.pathname, '#!/')
-page.redirect(location.pathname+'/', '#!/')
 
 page.base(location.pathname);
 
 page({ hashbang: true });
-window.addEventListener('hashchange', () => {
-    scrollTo(0, 0);
-    page.redirect(location.hash);
-});
-window.addEventListener('popstate', () => {
-    scrollTo(0, 0);
-    page.redirect(location.hash);
-});

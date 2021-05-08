@@ -74,7 +74,7 @@ export default connect(
         return {
             currentYear,
             urls: {
-                explore: '#!/explorer',
+                explore: '#!/',
                 solidarity: '#!/focus/' + SOLIDARITES,
                 invest: '#!/focus/' + INVEST,
                 presence: '#!/focus/' + PRESENCE
