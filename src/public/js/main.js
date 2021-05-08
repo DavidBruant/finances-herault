@@ -17,9 +17,6 @@ import hierarchicalM52 from '../../shared/js/finance/hierarchicalM52.js';
 import Breadcrumb from '../../shared/js/components/gironde.fr/Breadcrumb';
 //import Home from './components/screens/Home';
 import FinanceElement from './components/screens/FinanceElement';
-import FocusSolidarity from './components/screens/FocusSolidarity';
-import FocusInvestments from './components/screens/FocusInvestments';
-import FocusPresence from './components/screens/FocusPresence';
 
 import ExploreBudget from './components/screens/ExploreBudget';
 

@@ -29,7 +29,6 @@ import MoneyAmount from "../../../../shared/js/components/MoneyAmount";
 import { urls, ANIMATION_VIDEO } from "../../constants/resources";
 
 import M52ByFonction from "../M52ByFonction";
-import BudgetConstructionAnimation from "../BudgetConstructionAnimation";
 
 const MAX_HEIGHT = 30;
 
@@ -77,14 +76,7 @@ export function TotalBudget({
             React.createElement(
                 Markdown,
                 {},
-                `L’année 2019 s’est inscrite dans un environnement financier contraint à la fois par la limitation de l’évolution des dépenses de fonctionnement à un maximum de 1.2% conformément à l’arrêté du Préfet en date du 17 septembre 2018 pris dans le cadre de l’article 29 de la loi de programmation des finances publiques 2018 2022 appelé aussi « Pacte de Cahors », mais également par la rigidité des dépenses sociales sous compensées par l’Etat et le renforcement de la péréquation.  
-				  
-				C’est donc dans ce contexte de mise sous contrainte de l’autonomie de gestion des collectivités locales et du renforcement des solidarités, que le Département de la Gironde a exécuté son budget 2019 qui traduit la permanence des engagements pris en début de mandat, à savoir :  
-				  
-				Une évolution des dépenses d’investissement afin d’atteindre le milliard d’euros en fin de mandature  
-				Une épargne supérieure à 100M€  
-				Un endettement limité  
-				Des dépenses de fonctionnement maitrisées  `
+                `Coucou, ici, c'est l'Hérault !`
             )
         ),
 
@@ -228,32 +220,6 @@ export function TotalBudget({
                 Markdown,
                 {},
                 `Les chiffres étant issus du compte administratif, la différence entre le montant des recettes et le montant des dépenses représente l'excédent ou le déficit de l'exercice.`
-            )
-        ),
-        React.createElement(
-            "section",
-            {},
-            React.createElement(SecundaryTitle, {
-                text: `Comprendre la construction d'un budget`
-            }),
-            React.createElement(
-                Markdown,
-                {},
-                `Le budget prévoit la répartition des recettes et des dépenses sur un exercice. Il est composé de la section de fonctionnement et d’investissement. Contrairement à l’Etat, les Départements, ont l’obligation d’adopter un budget à l’équilibre. Toutefois, le compte administratif peut présenter sur l'exercice un résultat excédentaire ou déficitaire.`
-            ),
-            React.createElement(
-                Markdown,
-                {},
-                `Dans un contexte particulièrement contraint, la préservation de nos équilibres financiers constitue un défi stimulant. Alors comment s’établit notre budget ?`
-            ),
-            React.createElement(
-                BudgetConstructionAnimation,
-                Object.assign(
-                    {
-                        videoURL: screenWidth <= 1000 ? animationVideo : undefined
-                    },
-                    constructionAmounts
-                )
             )
         ),
         React.createElement(
