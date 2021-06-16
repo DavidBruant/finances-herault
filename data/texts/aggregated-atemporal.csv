@@ -62,9 +62,7 @@ RF.4.2,Taxe sur l’électricité,"La taxe départementale sur la consommation f
 [en savoir plus](http://www.energie-info.fr/Fiches-pratiques/Ma-facture-mon-compteur/CSPE-TICGN-CTA-TVA-Toutes-les-taxes-sur-ma-facture)"
 RF.4.3,Redevance des mines,"Les redevances communales et départementales des mines en France sont des redevances proportionnelles ayant pour fondement originel la loi du 21 avril 1810 concernant **les mines, les minières et les carrières** et créées sous leur forme moderne en 1941.
 Les entreprises minières sont, en contrepartie de l'exonération de la cotisation foncière des entreprises qui leur est accordée pour certaines activités par l'article 1463 du code général des impôts (CGI), passibles des redevances départementale et communale des mines.
-
-À ce jour, près de 1 400 [carrières souterraines](https://www.gironde.fr/collectivites/ressources-documentaires/les-carrieres-souterraines) ont été recensées dans le département même si la plupart sont à l’abandon ou en ruines.
-en savoir plus](https://fr.wikipedia.org/wiki/Redevances_communales_et_d%C3%A9partementales_des_mines)"
+"
 RF.4.4,Autres fiscalités,Il s'agit principalement de la taxe additionnelle à la taxe de séjour. Le Département peut en effet instituer une taxe additionnelle de 10 % à la taxe de séjour ou à la taxe de séjour forfaitaire perçue dans le Département par les Communes ou les Etablissements publics de coopération intercommunale (EPCI).
 RF.5,Dotations de l’État et compensations,"Les dotations de l'Etat correspondent au financement des **compétences transférées** aux collectivités territoriales dans le cadre des lois de décentralisation de 1982. Elles visent à permettre l'exécution des **missions réglementaires** des collectivités à partir des recettes collectées par l'Etat (impôts sur le revenu, taxe sur la valeur ajoutée, etc...). 
 Les dotations de compensation correspondent à des transferts de l'Etat vers le Département visant à neutraliser l'impact financier de la suppression d'un impôt local ou d'une composante d'assiette fiscale."
@@ -80,7 +78,7 @@ Ainsi, sont considérés comme “urbains” les Départements remplissant les d
  
 [en savoir plus](http://www.dotations-dgcl.interieur.gouv.fr/consultation/documentAffichage.php?id=11)"
 RF.5.2,Dotation Globale de Décentralisation (DGD),"En vertu du principe de neutralité financière des transferts de compétences, la compensation des transferts de compétences organisée par l'Acte I de la décentralisation en faveur Des départements s'est effectuée par le transfert d'impôts principalement et, pour le solde, sous forme de Dotation Générale de Décentralisation (DGD)."
-RF.5.3,Compensations fiscales, Elles servent à compenser les **exonérations et dégrèvements** consentis par l’État sur la fiscalité locale.
+RF.5.3,Compensations fiscales,Elles servent à compenser les **exonérations et dégrèvements** consentis par l’État sur la fiscalité locale.
 RF.5.4,Dotation de compensation de la réforme de la taxe professionnelle (DCRTP),"Le principe de compensation intégrale, instauré par la loi de finances pour 2010, se traduit par la mise en place à compter de 2011 de deux mécanismes : 
 * une dotation de compensation de la réforme de la taxe professionnelle (DCRTP) permettant le maintien d’un plancher de ressources pour chaque catégorie de collectivités 
 * un fonds national de garantie individuelle des ressources (FNGIR) afin d’assurer une compensation intégrale des pertes répertoriées par chaque collectivité "
@@ -134,6 +132,7 @@ RF.9.5,Produits des services,"Il s'agit des revenus issus des services publics l
 RF.9.6,Remboursement charges de personnels,Il s'agit de remboursement au titre des rémunérations ou des charges sécurité sociale ou prévoyance.
 RF.9.7,Autres produits de gestions courants,Il s'agit de recouvrements au titre d'indus ou de régies.
 RF.9.8,Produits financiers,Il s'agit de recettes issues de participations financières (intérêts sur parts sociales)
+RF.A,Autre,
 DF,Dépenses de fonctionnement,"Les dépenses de fonctionnement regroupent principalement :
 * le versement des prestations d'action sociale
 * les interventions du Département sur les territoires, [sur le fonctionnement des collèges (dont la gestion de la restauration scolaire), le fonctionnement du Service Départemental d’Incendie et de Secours, le soutien aux partenaires, les dispositifs de transport (jusqu’en 2017) etc.] 
@@ -154,23 +153,18 @@ DF.1,Actions sociales par prestations,"L’action sociale du Département, dont 
 * des aides diverses."
 DF.1.1,Frais d’hébergement,"Le Département intervient pour faciliter l'hébergement des enfants, des personnes âgées et des personnes handicapées et ce par plusieurs dispositifs comme le Centre départemental de l'enfance et de la famille (CDEF), les Maisons d'Enfants à Caractère Social (MECS), les accueils familiaux, la création et le financement de places dans des établissements (EHPAD) ou dans des Foyers d'Accueil Médicalisés (FAM)."
 DF.1.1.1,Personnes en situation de handicap,"Avec la Prestation de Compensation du Handicap (PCH), l’Allocation Adulte Handicapé (AAH) et l’Allocation d’Education de l’Enfant Handicapé (AEEH), le Département facilite la vie à domicile, l’accessibilité au logement, à l’emploi, à la scolarisation et à la vie sociale
-(Carte Mobilité Inclusion). Au travers de ces aides, le Département accompagne l’accueil en établissement et soutient les associations du domaine du handicap.
-En 2016, 37 familles d'accueil et 86 établissements et services médico-sociaux ont accueillis près de 3 500 Girondins.
-[en savoir plus(]https://www.gironde.fr/handicap-grand-age)"
+(Carte Mobilité Inclusion). Au travers de ces aides, le Département accompagne l’accueil en établissement et soutient les associations du domaine du handicap."
 DF.1.1.2,Personnes âgées,"L'objectif du Département est de permettre aux personnes âgées de garder leur autonomie le plus longtemps possible.
 Les principales actions mises en oeuvre en faveur du maintien à domicile sont:
 *le financement de l’Allocation Personnalisée d’Autonomie (APA), 
 *l’aide aux aidants
 *la coordination gérontologique notamment via les CLIC (Centres Locaux d’Information et de Coordination).
 Les principales actions en faveur de l’hébergement sont des aides financières pour développer les Résidences Autonomie, l’accueil familial (agrément et formation), les Établissement d’Hébergement pour Personnes Âgées Dépendantes (EHPAD) publics et l’aide sociale.
-
-En 2016, 138 familles d'accueil et 187 EHPAD autorisés ont accueillis plus de 13 500 personnes
-
-[en savoir plus](https://www.gironde.fr/handicap-grand-age)"
+"
 DF.1.1.3,Enfants,"Le Département assure le financement de places d'accueil en **établissement** (Maison d'Enfance à Caractère Social, par exemple) d'enfants en situation de précarité mais aussi à travers l'accueil au sein du Centre Départemental de l'Enfance et de la Famille (CDEF) et l'accueil par des **assistants familiaux ou maternels** à leur domicile.
-[en savoir plus](https://www.gironde.fr/enfance-et-famille/protection-de-lenfance)"
+"
 DF.1.2,Revenu de Solidarité Active (RSA),"Ce dispositif vise à favoriser l'inclusion par l'activité. * Le **Revenu de Solidarité Active (RSA)** est une allocation permettant de participer à la prise en charge de frais liés à la réalisation de démarches d’insertion pour l'allocataire du RSA «soumis aux droits et devoir».Le nombre d'allocataires est calculé sur la base des personnes adultes d’un foyer titulaire d’un droit RSA. 
-[en savoir plus](https://www.gironde.fr/insertion-rsa/)"
+"
 DF.1.3,Prestation Compensatoire du Handicap (PCH) + Allocation Compensatrice aux Tierces Personnes (ACTP),"Ces prestations s'adressent aux personnes en situation de handicap.
 * La **Prestation de compensation** (PCH), finance les besoins liés à la perte d’autonomie sur la base d’un plan personnalisé. Cette prestation est amenée à remplacer l’Allocation compensatrice pour tierce personne (ACTP). 
 * L'**Allocation compensatrice pour tierce personne**, finance le recours à une tierce personne pour accomplir les actes essentiels de la vie courante. A compter du 1er janvier 2006, la loi du 11 février 2005 lui substitue pour toute nouvelle demande la Prestation de compensation du handicap (PCH)"
@@ -179,9 +173,9 @@ DF.1.5,Préventions enfants,"La prévention permet de maintenir autant que possi
 * aides financières et psychologiques, aides éducatives à domicile (comme l'Aide éducative en Milieu Ouvert ou AEMO), 
 * des interventions sociales au sein des familles. 
 Ces prestations s'adressent à des **mineurs ou jeunes majeurs âgés de moins de 21 ans** confrontés à des problèmes familiaux.
-[en savoir plus](https://www.gironde.fr/enfance-et-famille/protection-de-lenfance)"
+"
 DF.1.6,Subventions sociales,"Il s'agit de toutes les aides versées à des associations ou à des organismes divers qui oeuvrent pour l'action sociale et la solidarité humaine, les aides pour les modes de gardes du jeune enfant, en matière de prénatalité et de planification familiale, en matière d'insertion et d'économie sociale et solidaire et la subvention à la Maison Départementale des Personnes Handicapées (MDPH).
-[en savoir plus](https://www.gironde.fr/handicap-grand-age)"
+"
 DF.1.7,Diverses dépenses de solidarité,"Différents dispositifs de prestations financières viennent compléter les prestations de solidarité gérées par le Département comme par exemple
 * L'**Aide Personnalisée de Retour à l'Emploi (APRE) ** : aides financières permettant de participer à la prise en charge de frais liés à une reprise d’activité professionnelle pour les allocataires du RSA «soumis aux droits et devoirs».
 * L'**Aide Financière Précarité** (AFP) concerne les ménages avec ou sans enfant dont la situation de précarité ne lui permet pas de faire face aux besoins de la vie quotidienne ou au paiement de certaines charges, ** les contrats aidés**, ** la CAPED**..."
@@ -195,15 +189,15 @@ DF.2,Actions sociales par publics,"Le compte des dépenses d'actions sociales pe
 * les **enfants**"
 DF.2.1,Personnes en insertion ou en situation de précarité,"Le Département accompagne les personnes fragilisées à travers le Revenu de Solidarité Active (RSA)et favorise le retour à l'emploi en mettant en place des dispositifs d'insertion (aide à la recherche d'emploi, partenariat avec pôle emploi..) et de lutte **contre l’exclusion et la pauvreté** comme par exemple des aides pour la rénovation énergétique, l'alimentation locale etc.."
 DF.2.2,Personnes en situation de handicap,"Le Département contribue à garantir aux personnes (adultes et enfants) souffrant de handicap et ne disposant pas de ressources suffisantes une prise en charge des frais d'hébergement, des aides financières (PCH, ACTP...).
-[en savoir plus](https://www.gironde.fr/handicap-grand-age)"
+"
 DF.2.3,Personnes âgées,"Le Département contribue à la **prise en charge de la dépendance**, principalement au travers de l’allocation personnalisée d’autonomie (APA).
-[en savoir plus](https://www.gironde.fr/handicap-grand-age)"
+"
 DF.2.4,Enfance,"Le Département a pour mission d'accompagner les familles, de prévenir les difficultés éventuelles des parents avec leurs enfants, d'organiser la prise en charge des enfants ou jeunes adultes en difficultés selon les modalités adaptées à leurs besoins"
 DF.2.5,Autres,"Le Département favorise le parcours de santé à des âges clés de la vie.
-Chaque Girondin peut bénéficier de l’écoute, de l’accompagnement de professionnels de santé au titre de la santé sexuelle (Centres de planification et Centre gratuit d’Information de Dépistage et Diagnostic Infections Sexuellement Transmissibles-Hépatites-Sida) pendant la grossesse, à la naissance d’un enfant et jusqu’à ses 6 ans, en consultation, au domicile ou dans ses différents milieux de vie (modes d’accueil, écoles maternelles…).
-[en savoir plus](https://www.gironde.fr/enfance-et-famille)
+Chaque personne peut bénéficier de l’écoute, de l’accompagnement de professionnels de santé au titre de la santé sexuelle (Centres de planification et Centre gratuit d’Information de Dépistage et Diagnostic Infections Sexuellement Transmissibles-Hépatites-Sida) pendant la grossesse, à la naissance d’un enfant et jusqu’à ses 6 ans, en consultation, au domicile ou dans ses différents milieux de vie (modes d’accueil, écoles maternelles…).
+
 Le centre de lutte anti-tuberculose, le centre de vaccinations et l’accompagnement santé des adultes en précarité complètent cette offre.
-[en savoir plus](https://www.gironde.fr/sante-sexualite)"
+"
 DF.3,Actions d’intervention,Ce chapitre regroupe les dépenses liées à l'intervention du Département sur le territoire avec notamment la contribution financière au fonctionnement du **service d'incendie et de secours** (SDIS) gérant les sapeurs-pompiers. La baisse en 2018 marque le transfert de la compétence transports à la Région
 DF.3.1,Service Départemental d'Incendie et de Secours (SDIS),"Le SDIS est l'établissement public à caractère administratif gérant les **sapeurs-pompiers** au niveau d'un département. Doté d'une assemblée délibérante, le SDIS est soumis à une double autorité : opérationnelle (gérée par le préfet et le maire en collaboration dans leur pouvoir de police respectif) et administrative (gérée par un conseil d'administration présidé par le Président du Conseil départemental)."
 DF.3.2,Transports,"Jusqu'à la loi NOTRe (art. L.3111-1 code des transports), relevaient de la compétence des Départements :
@@ -212,48 +206,46 @@ DF.3.2,Transports,"Jusqu'à la loi NOTRe (art. L.3111-1 code des transports), re
 * la **desserte des îles**
 * la construction, l’aménagement et l’exploitation de **gares publiques routières de voyageurs** 
 * les **lignes ferroviaires d’intérêt local**
-Depuis le 1er septembre 2017, les lignes régulières de TransGironde et le transport scolaire ont été transférés à la Région Nouvelle-Aquitaine (loi Nouvelle organisation territoriale de la République). Seul le transport des élèves et étudiants en situation de handicap reste assuré par le Département.
-[en savoir plus sur le site Gironde.fr](https://www.gironde.fr/deplacements)
-[en savoir plus](http://www.vie-publique.fr/decouverte-institutions/institutions/collectivites-territoriales/competences-collectivites-territoriales/quelles-sont-competences-exercees-par-departements.html)"
-DF.3.3,Transports des étudiants et des élèves handicapés,"Le Département prend en charge  le transport spécial des élèves handicapés vers leurs établissements scolaires.
-[en savoir plus](https://www.gironde.fr/deplacements/les-cars-transgironde)"
-DF.3.4,Prévention spécialisée,"Dans le cadre des politiques que ceux-ci développent pour venir en aide à l'enfance, les Départements ont autorité sur l'**action d'éducation spécialisée** visant à permettre à des jeunes en voie de marginalisation de **rompre avec l’isolement** et de **restaurer le lien social**."
-DF.3.5,Dotation de fonctionnement des collèges,"Le Département **construit, entretient et rénove l’ensemble du parc de 105 collèges publics** dans le respect des normes environnementales.
-Il assure aussi la restauration scolaire, l’environnement numérique des établissements, et accompagne le développement de projets culturels, citoyens et environnementaux.
 
-[en savoir plus](https://www.gironde.fr/jeunesse/vie-au-college)"
+Ces compétences ont été transférées à la Région"
+DF.3.3,Transports des étudiants et des élèves handicapés,"Le Département prend en charge  le transport spécial des élèves handicapés vers leurs établissements scolaires.
+"
+DF.3.4,Prévention spécialisée,"Dans le cadre des politiques que ceux-ci développent pour venir en aide à l'enfance, les Départements ont autorité sur l'**action d'éducation spécialisée** visant à permettre à des jeunes en voie de marginalisation de **rompre avec l’isolement** et de **restaurer le lien social**."
+DF.3.5,Dotation de fonctionnement des collèges,"Le Département **construit, entretient et rénove l’ensemble du parc des collèges publics** dans le respect des normes environnementales.
+Il assure aussi la restauration scolaire, l’environnement numérique des établissements, et accompagne le développement de projets culturels, citoyens et environnementaux.
+"
 DF.3.6,Subventions de fonctionnement,"Ces aides financières sont versées à des organismes extérieurs conformément aux règlements d'intervention adoptés par les élus. Il peut s'agir d'associations, de personnes physiques, d'organismes divers."
 DF.3.7,Diverses participations,"Il s'agit principalement de Participations aux familles par le biais d'octroi de bourses d'études pour les collégiens, du fonds de solidarité pour le logement des plus démunis et autres participations financières."
-DF.3.7.1,Fond social logement,"Le Fonds de Solidarité Logement de la Gironde a pour but d’aider les **familles ou les personnes les plus démunies** rencontrant des difficultés pour accéder à un logement décent et indépendant, ou à s’y maintenir en disposant de la fourniture d’eau, d’énergie et de service téléphonique et/ou internet. [source](http://www.fsl33.org/)"
-DF.3.7.2,Bourses départementales,"Cette aide directe destinée à **couvrir les frais de scolarité** est accordée aux **familles les plus modestes**, domiciliées en Gironde, boursières de l’Education Nationale, qui ont un ou plusieurs enfants scolarisés dans un collège public ou un collège privé sous contrat. Selon les revenus de la famille, en 2015-2016, le montant de cette aide départementale était de :
+DF.3.7.1,Fond social logement,"Le Fonds de Solidarité Logement a pour but d’aider les **familles ou les personnes les plus démunies** rencontrant des difficultés pour accéder à un logement décent et indépendant, ou à s’y maintenir en disposant de la fourniture d’eau, d’énergie et de service téléphonique et/ou internet."
+DF.3.7.2,Bourses départementales,"Cette aide directe destinée à **couvrir les frais de scolarité** est accordée aux **familles les plus modestes**, domiciliées dans le Département, boursières de l’Education Nationale, qui ont un ou plusieurs enfants scolarisés dans un collège public ou un collège privé sous contrat. Selon les revenus de la famille, en 2015-2016, le montant de cette aide départementale était de :
 
 * 70 € pour les familles bénéficiant du taux 1
 * 80 € pour les familles bénéficiant du taux 2
 * 100 € pour les familles bénéficiant du taux 3
-
-[en savoir plus](https://www.gironde.fr/jeunesse/vie-au-college#progress-3)"
+"
 DF.3.7.3,Participation diverses,"Participations financières à des organismes de regroupement (syndicats mixtes et ententes) dans les domaines de l'aménagement, de l'assainissement, du développement touristique, du logement ou du milieu naturel."
 DF.4,Frais de personnel,"L'administration départementale dispose de **ressources humaines** pour lui permettre de mettre en oeuvre ses missions de service public. Ces agents territoriaux ( fonctionnaires ou contractuels) sont rémunérés par la collectivité en fonction des règles définies par le code général des collectivités territoriales.
 Les agents sont répartis sur le territoire dans les 425 sites d'accueil du public et dans le quartier de Mériadeck à Bordeaux. Ils assurent les missions de service public dévolues au Département avec le souci de l'équité territoriale.
 "
 DF.5,Péréquation horizontale,"La péréquation est un mécanisme de redistribution qui **vise à réduire les écarts de richesse**, et donc les inégalités, entre les différentes collectivités territoriales. [source](http://www.vie-publique.fr/decouverte-institutions/institutions/collectivites-territoriales/competences-collectivites-territoriales/quelles-sont-competences-exercees-par-departements.html)
-L’article 113 de la loi de finances initiales pour 2013 prévoit la création d’un mécanisme de péréquation horizontale pour les départements, c'est-à-dire redistribuant une fraction des ressources fiscales entre ces collectivités. Cette péréquation s’est renforcée en 2019 : composée jusque-là des contributions au fonds de péréquation de la contribution sur la valeur ajoutée (FPCVAE) et au titre des deux fonds adossés au droits de mutation : le fonds de péréquation des DMTO (FPDMTO) et le fonds de solidarité entre les Départements (FSD), l’article 261 de la loi de finances pour 2019 a créé le Fonds de Soutien interdépartemental (FSID). Ce fonds est destiné à répondre aux difficultés de financement des AIS des départements confrontés à des difficultés sociodémographiques mais pour lequel la Gironde n’a que la qualité de contributeur."
+L’article 113 de la loi de finances initiales pour 2013 prévoit la création d’un mécanisme de péréquation horizontale pour les départements, c'est-à-dire redistribuant une fraction des ressources fiscales entre ces collectivités. Cette péréquation s’est renforcée en 2019 : composée jusque-là des contributions au fonds de péréquation de la contribution sur la valeur ajoutée (FPCVAE) et au titre des deux fonds adossés au droits de mutation : le fonds de péréquation des DMTO (FPDMTO) et le fonds de solidarité entre les Départements (FSD), l’article 261 de la loi de finances pour 2019 a créé le Fonds de Soutien interdépartemental (FSID). "
 DF.6,Charges courantes,"Ces charges comprennent notamment les **dépenses d'achats de fourniture, les dépenses liées aux consommations d'énergie et de communication, l'ensemble des prestations de services** auxquelles font appel la collectivité ainsi que les dépenses liées à l'**entretien de la voirie** et les **indémnités des élus** (questure). En 2019, s'est rajoutée la dépense liée à la reprise financière, les dépenses de fonctionnement ayant évolué plus que les 1.2% demandés par l'Etat"
 DF.6.1,Frais généraux,"Ces frais correspondent aux dépenses liées au fonctionnement courant de la collectivité comme par exemple les **dépenses d’entretien  des bâtiments, les assurances, les frais affranchissement ou de télécommunication, les achats d'électricité et de fournitures diverses, les prestations de formation** de la collectivité"
 DF.6.1.1,Achats et fournitures,"Il s'agit des dépenses liées aux achats d'électricité, carburant, chauffage, habillement, fournitures administratives et de petits équipements"
 DF.6.1.2,Prestations de services,"Ces frais comprennent notamment les dépenses réalisées par la collectivité pour  l'entretien et les réparations de bâtiments, les assurances, les locations immobilières, la formation, études et charges diverses…"
-DF.6.1.3,Frais divers ,"Cette rubrique regroupe un ensemble de dépenses effectuées par la collectivité  en termes d'affranchissement, de souscription à une offre de service de télécommunication, de services bancaires, d'organisation de réception ou de déplacements "
+DF.6.1.3,Frais divers,"Cette rubrique regroupe un ensemble de dépenses effectuées par la collectivité  en termes d'affranchissement, de souscription à une offre de service de télécommunication, de services bancaires, d'organisation de réception ou de déplacements "
 DF.6.1.4,Autres impôts et taxes, Ce sont des taxes foncières principalement
-DF.6.2,Dépenses de voirie,Ces dépenses concernent l'entretien du **réseau routier** départemental constitué de **6 476 kilomètres de routes dont 318 kilomètres de pistes cyclables.** [en savoir plus](https://www.gironde.fr/deplacements/les-routes-et-ponts)
+DF.6.2,Dépenses de voirie,Ces dépenses concernent l'entretien du **réseau routier** départemental
 DF.6.3,Autres charges,"Ces charges sont diverses et souvent exceptionnelles et concernent notamment des **subventions d'équilibre aux budgets annexes **, ou des régularisations, annulations,provisions "
 DF.6.3.1,Questure/indemnités des élus,Ces dépenses concernent les **frais de fonctionnement des groupes d’élus** et le paiement des indemnités aux élus.
 DF.6.3.2,Charges exceptionnelles et provisions,"Ces charges concernent les **intérêts moratoires, amendes fiscales, subventions aux SPIC** (service public industriel et commercial)."
 DF.6.3.3,"Autres (dont budgets annexes hostens, LABO)","Contributions aux budgets annexes des structures administratives rattachées au Département comme le domaine d'Hostens, ou le Laboratoire départemental."
-DF.6.4,Dotation transferts,Ces dépenses sont liées à l'application de la loi MAPTAM et  aux transferts de certaines  dépenses à Bordeaux Métropole 
-DF.6.5,Reprise financière,"L'etat a décidé en 2018  de mettre sous surveillance les dépenses de fonctionnement des collectivités, celles ci ne devant pas évoluer ( dans la majorité des cas) de plus de 1.2%. Dans le cas contraire, une reprise financière du montant du dépassement serait été appliquée à 100%, ou à 75% de ce montant si la collectivité avait contractualisé avec l'Etat.N’étant pas d’accord avec le taux d'encadrement notifié par le Préfet, le Département de la Gironde a intenté un recours devant le Tribunal administratif à l’instar d’autres départements (Finistère, Seine-Saint-Denis)
+DF.6.4,Dotation transferts,Ces dépenses sont liées à l'application de la loi MAPTAM et  aux transferts de certaines  dépenses à Bordeaux Métropole
+DF.6.5,Reprise financière,"L'etat a décidé en 2018  de mettre sous surveillance les dépenses de fonctionnement des collectivités, celles-ci ne devant pas évoluer (dans la majorité des cas) de plus de 1.2%. Dans le cas contraire, une reprise financière du montant du dépassement serait été appliquée à 100%, ou à 75% de ce montant si la collectivité avait contractualisé avec l'Etat.
 
 "
 DF.7,Intérêts des emprunts,Il s'agit des intérêts des emprunts long terme contractés par le Département pour financer ses investissements. Avec l'amortissement du capital comptabilisé en investissement ils composent l'annuité de la dette
+DF.A,Autre,
 RI,Recettes d’investissement,"Les recettes d'investissement sont constituées :
 * de dotations de l’Etat [par exemple, le Fonds de Compensation de la TVA (FCTVA), la Dotation Globale d'Équipement (DGE), etc.]
 * de subventions (versées en contrepartie de dépenses réalisées par les communes, la Région, l’État,ou l’Europe…)
@@ -275,41 +267,36 @@ RI.7,Amendes radars automatiques,"Produits des amendes de radars automatiques su
 RI.EM,Emprunt contracté,"Les emprunts contractés par le Département sont exclusivement destinés à financer des investissements, qu'il s'agisse d'un équipement spécifique, d'un ensemble de travaux relatifs à cet équipement ou encore d'acquisitions ou d'études. Les emprunts peuvent être parfois affectés explicitement à une ou plusieurs opérations d'investissement précisément désignées au contrat (par exemple pour le plan collèges ou la réhabilitation thermique de batiments administratifs), mais ils sont dans la majeure partie globalisés et correspondent à l'ensemble du besoin de financement de la section d'investissement."
 RI.EM.1,Emprunt nouveau,"Il s'agit de l'emprunt réalisé dans l'année mais dont le contrat a pu être signé antérieurement. Préalablement à la signature d'un contrat de prêt, le Département organise une ou deux consultations sur la base d'un cahier des charges définissant les caractéristiques des emprunts recherchés et le volume. La décision finale est prise par le Président du Conseil Départemental. Les empunts sont en général à taux fixe ou variable d'une durée de 15 ans. Ces dernières années, le Département a réalisé des émissions obligataires qui lui ont permis d'obtenir des conditions de taux plus compétitives sur des durées plus courtes."
 RI.EM.2,OCLT,Ces emprunts baptisés Ouverture de Crédits Long Terme (OCLT) ou Crédits Long Terme Renouvelable (CLTR) sont des crédits long terme classique avec une possibilité d'utilisation en ligne de trésorerie. Ces droits consistent à pouvoir tirer des fonds jusqu'à un plafond fixé et pendant une période donnée afin de faire face à un besoin de trésorerie c'est à dire pour payer le décaissement des dépenses réalisées.
-,,
+RI.A,Autre,
 DI,Dépenses d’investissement (y compris le remboursement en capital des emprunts),"Les dépenses d’investissement sont destinées à : 
 * maintenir, améliorer et développer le patrimoine dont dispose le Département [travaux sur les routes départementales, construction ou aménagement des bâtiments de la collectivité (collèges, Maisons Départementales de la Santé et de l’Insertion…), acquisition diverses, etc.
 * soutenir l’investissement de nos partenaires sur les territoires 
 
 Elles comprennent aussi le remboursement en capital des emprunts."
-,,
 DI.1,Equipements Propres,"Les dépenses d'investissement en équipements propres sont considérées comme des immobilisations par nature, dans la mesure où elles remplissent des conditions de durabilité et de consistance."
 DI.1.1,Collèges,"En fonction de l'évolution de la démographie, le Département entreprend la construction de nouveaux collèges sur le département pour garantir des conditions d'accueil permettant le déroulement de la scolarité des élèves dans des locaux appropriés. D'ici à 2020, 12 nouveaux collèges doivent être construits pour répondre à ce besoin.
-[en savoir plus](https://www.gironde.fr/actualites/plan-colleges-2024)
 "
 DI.1.2,Routes,"Ces dépenses correspondent à la construction de nouvelles routes, de nouveaux tronçons, ou d'aménagement de circulation sur le réseau départemental qui compte actuellement 6 500 km.
-[en savoir plus](https://www.gironde.fr/deplacements/les-routes-et-ponts)"
-DI.1.3,Bâtiments,"En vue de garantir l'équité d'accès sur le territoire et offrir un service de proximité aux girondins, le Département entreprend régulièrement la construction de nouveaux bâtiments pour les besoins liés à l'exercice des compétences et doit maintenir en état les bâtiments existants"
+"
+DI.1.3,Bâtiments,"En vue de garantir l'équité d'accès sur le territoire et offrir un service de proximité aux citoyen.ne.s, le Département entreprend régulièrement la construction de nouveaux bâtiments pour les besoins liés à l'exercice des compétences et doit maintenir en état les bâtiments existants"
 DI.1.4,Aménagement,"Le Département agit pour la **protection et la valorisation des espaces naturels sensibles**. Il assure leur gestion, organise des actions de sensibilisation à l'environnement, et permet au public de visiter ces sites préservés en visites libres, ou guidées par des guides naturalistes.
-[en savoir plus](https://www.gironde.fr/environnement/espaces-naturels-et-biodiversite)"
+"
 DI.1.5,Immobilier social,Partenariats publics-privés conclus pour permettre des investissements d'ampleurs. Ces dernières années le Département y a eu recours pour financer l'équipement en fibre optique du territoire ou pour accélérer la construction des 9 pôles territoriaux de solidarité.
-,,
 DI.2,Subventions,"Le Département est le **chef de file des solidarités humaines et territoriales**. Il est l’interlocuteur privilégié des collectivités dans le domaine de l’**ingénierie territoriale**. 
 Dans un contexte économique de plus en plus tendu et face à une pression démographique forte, les communes connaissent des situations économiques très contrastées qui rendent difficile la réalisation de projets pourtant nécessaires. 
-Face à cette situation, le Département les accompagne (offre d’ingénierie avec Gironde Ressources et subventions) pour un **développement harmonieux et équilibré du territoire**.
-[en savoir plus](https://www.gironde.fr/collectivites)"
+Face à cette situation, le Département les accompagne pour un **développement harmonieux et équilibré du territoire**.
+"
 DI.2.1,Subventions aux communes,"Subventions versées aux communes du territoire pour contribuer à leurs dépenses d'investissements propres contribuant aux objectifs d'accessibilité et d'équité d'équipement en services publics de proximité.
-[en savoir plus](https://www.gironde.fr/collectivites)"
+"
 DI.2.2,Logement,Le département participe avec ses partenaires institutionnels et privés à consacrer le droit au logement pour tous. Plusieurs politiques publiques dans les domaines de l’hébergement et de l’accès au logement se matérialisent par l'investissement de la collectivité dans le patrimoine immobilier du territoire.
 DI.2.3,SDIS,Subvention versée au SDIS (Etablissement Public Départemental) pour l'aider à financer ses équipements
 DI.2.4,subventions tiers (hors sdis),Subventions versées à d'autres établissements publics ou associations.
-DI.2.5,LGV,"Subvention versée au projet de ligne à grande vitesse financée par l'Etat et le Conseil régional.
-[en savoir plus](https://www.gironde.fr/espace-presse/28022017-inauguration-de-la-ligne-grande-vitesse-tours-bordeaux-avec-138-millions)
-
-[Les enjeux pour l'aménagement du territoire](https://www.gironde.fr/actualites/lgv-apres-linauguration-les-enjeux-pour-la-gironde)"
+DI.2.5,LGV,
 DI.2.6,Gironde Numérique,"Subvention versée au syndicat mixte chargé de développer le réseau de fibre optique du territoire.
-[en savoir plus](https://www.gironde.fr/grands-projets/le-haut-debit)"
+"
 ,,
 DI.EM,Emprunt remboursé,Chaque année la collectivité consacre une partie de ses revenus au remboursement des emprunts qu'il a contracté pour financer ses projets d'investissement.
 DI.EM.1,Amortissement emprunt,Remboursement du capital des emprunts contractés
 DI.EM.2,Amortissement OCLT,Remboursement des facilités de crédit
 DI.EM.3,Divers Emprunts,Emprunts sur comptes spéciaux du Trésor
+DI.A,Autre,
