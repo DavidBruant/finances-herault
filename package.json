@@ -1,5 +1,5 @@
 {
-  "name": "dataviz-gironde",
+  "name": "finances-herault",
   "private": true,
   "version": "1.0.0",
   "description": "...",
@@ -35,14 +35,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/datalocale/dataviz-finances-gironde"
+    "url": "https://github.com/DavidBruant/finances-herault"
   },
   "author": "dtc innovation",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/datalocale/dataviz-finances-gironde/issues"
+    "url": "https://github.com/DavidBruant/finances-herault/issues"
   },
-  "homepage": "https://github.com/datalocale/dataviz-finances-gironde",
+  "homepage": "https://github.com/DavidBruant/finances-herault",
   "browserify": {
     "transform": [
       [

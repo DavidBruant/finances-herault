@@ -20,7 +20,6 @@ import { flattenTree } from "../../../../shared/js/finance/visitHierarchical.js"
 
 import PageTitle from "../../../../shared/js/components/gironde.fr/PageTitle";
 import SecundaryTitle from "../../../../shared/js/components/gironde.fr/SecundaryTitle";
-import DownloadSection from "../../../../shared/js/components/gironde.fr/DownloadSection";
 import PrimaryCallToAction from "../../../../shared/js/components/gironde.fr/PrimaryCallToAction";
 
 import Markdown from "../../../../shared/js/components/Markdown";
@@ -236,18 +235,7 @@ export function TotalBudget({
                     labelsById,
                     screenWidth
                 })
-                : undefined,
-            React.createElement(DownloadSection, {
-                title: `Données brutes sur datalocale.fr`,
-                items: [
-                    {
-                        text:
-                            "Comptes administratifs du Département de la Gironde au format XML TOTEM",
-                        url:
-                            "https://www.datalocale.fr/dataset/comptes-administratifs-budget-principal-donnees-budgetaires-du-departement-de-la-gironde"
-                    }
-                ]
-            })
+                : undefined
         )
     );
 }

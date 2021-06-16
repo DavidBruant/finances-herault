@@ -1,4 +1,4 @@
-# Dataviz finances Gironde [![Build Status](https://travis-ci.org/datalocale/dataviz-finances-gironde.svg?branch=master)](https://travis-ci.org/datalocale/dataviz-finances-gironde)
+# Finances Hérault
 
 ## Contribuer
 
@@ -43,75 +43,29 @@ Deux adresses sont ensuite accessibles : [http://localhost:3000/]() et [http://l
 
 ## Intégration continue
 
-L'intégration continue est automatise les éléments suivants :
-
-* exécution des tests sur _chaque branche_ ;
-* déploiement de la [démo][] depuis _master_ ;
-
-Le suivi des _builds_ est assuré par [Travis CI][].
-
-### Installation
-
-En se rendant sur [Travis CI][] :
-
-1. se connecter avec son compte GitHub (_Sign in with Github_) ;
-2. se rendre sur son [profil Travis CI][] ;
-3. cocher la case du projet `datalocale/dataviz-finances-gironde`.
-
-Reste ensuite à [configurer l'outil](#configurer-travis-ci).
-
-### Configurer Travis CI
-
-Deux variables d'environnement doivent être configurées dans l'[onglet Settings][ci-settings] :
-
-| Name | Value | Display value in build logs |
-| ---- | ----- | --------------------------- | |
-| `GH_TOKEN` | _voir [Générer un token](#générer-un-token)_ | **Off** |
-| `DEPLOY_TARGET_BRANCH` | gh-pages | _On_ |
-
-![](docs/ci-settings.png)
-
-### Générer un token
-
-Un _Personal access token_ est nécessaire pour que l'automate d'intégration continue puisse publier la [démo][].
-
-🔓 [Générer un nouveau _token_](https://github.com/settings/tokens/new?description=datalocale.github.io/dataviz-finances-gironde&scopes=public_repo)
-
-Le token créé est à renseigner dans la [configuration Travis CI](#configurer-travis-ci).
+L'intégration continue se passe via un github actions
 
 ## Déploiement
 
 **Remarque** : les étapes de la section `Installer le projet` doivent avoir été suivies au préalable.
 
-Il existe 3 environnements :
+Il existe 2 environnements :
 
-* gironde.fr où il faut créer manuellement dans le CMS un "media dataviz" et un contenu de type "Code HTML5" où on peut mettre le contenu de `build/gironde-fr-integration.html`. Le fichier JavaScript `dataviz-finance-gironde-fr-bundle.script` est à ajouter indépendamment.
-    * `npm run build-preprod` pour la preprod (media id `2459`)
-    * `npm run build-production` pour gironde.fr, la production (media id `2459`)
-* démo sur gh-pages (`npm run build-demo:public` mais cette commande est seulement faite par Travis)
+* Un environnement de prod à définir
+* démo sur gh-pages (`npm run build-demo:public` mais cette commande est seulement faite par github actions)
 * dévelopement (`npm run watch`)
 
 Les artéfacts de build sont rendus créés dans le dossier `./build`.
 
-[Travis CI](https://travis-ci.org/datalocale/dataviz-finances-gironde) est [configuré](https://github.com/datalocale/dataviz-finances-gironde/blob/master/.travis.yml) pour builder automatiquement les artefacts des 3 environnements et les pousser sur les branches : 
 - [`gh-pages`](https://github.com/datalocale/dataviz-finances-gironde/tree/gh-pages) pour l'environnement de [démo](https://datalocale.github.io/dataviz-finances-gironde/public/)
-- [`preprod-gironde.fr`](https://github.com/datalocale/dataviz-finances-gironde/tree/preprod-gironde.fr) pour l'environnement de preprod (non disponible publiquement)
-- [`gironde.fr`](https://github.com/datalocale/dataviz-finances-gironde/tree/gironde.fr) pour le déploiement en production sur [gironde.fr](https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale)
 
 
 
-### Convertir l'image de fond de la page d'accueil
-
-Cette action requiert [ImageMagick][] et est à effectuer à chaque fois que l'image `images/Map-v1.jpg` est mise à jour.
-
-```bash
-$ convert images/Map-v1.jpg -interlace Plane -resize 1300 -strip images/map-optimised.jpg
-```
 ## Présentation de l'outil
 
 L’outil créé est une application 100% front-end chargée à partir de fichiers statiques HTML, CSS, JS, images, etc. Cette application utilise la bibliothèque React.js.
 Le code source de référence est actuellement sur github à l’adresse suivante : 
-https://github.com/datalocale/dataviz-finances-gironde/
+https://github.com/DavidBruant/finances-herault
 
 
 ## mise à jour
@@ -153,6 +107,9 @@ La dataviz finances est basé sur plusieurs éléments contribuant à son intero
 * appui sur le schéma xsd TOTEM
 * déploiement continu d'une SPA (Single page application) qui peut être intégré à n'importe quel type de publication (site web autonome, page dans un gestionnaire de contenu)
 
+<!--
+TODO : à réécrire
+
 En plus des présentations par fonctions ou nature M52, le Département de la Gironde présente ses comptes sous un format dit “agrégé”. Ils s’agit d’une centaine de catégories. Il existe (à une petite exception près) une association qui permet de passer d’un document budgétaire en M52 à un document agrégé.
 
 Pour faciliter la gestion actuelle, un tableur numérique collaboratif permet l'écriture des formules en langage métier
@@ -178,6 +135,8 @@ Avec quelques évolutions, il pourrait permettre d'enregistrer les formules sais
 ## éditorial
 
 L’outil contient des pages dites “focus” qui permettent au Département de créer du contenu plus éditorialisé pour mettre en valeur ses actions et parler un peu moins de finance et un peu plus de l’action qui en découle.
+
+-->
 
 ## Licence
 
